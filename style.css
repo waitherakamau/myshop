@@ -1,0 +1,142 @@
+html{
+        scroll-behavior: smooth;
+
+}
+body{
+    background-image: url('moon.jpg');
+    background-size: cover; 
+    position: center;
+    background-repeat: no-repeat;
+    height: 130vh;
+
+}
+header{
+     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    color: aqua;
+
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 0%50px;
+    
+
+
+}
+.logo img{
+    height: 10vh;
+    /* color: yellow; */
+
+}
+.logo h3{
+
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none; 
+    
+
+}
+.nav ul li a{
+     text-decoration: none; 
+    padding: 0px 20px;
+    color: azure; 
+     display: flex; 
+     font-size: 20px;
+
+}
+.nav ul li a:hover{
+    color: teal;
+    font-weight: bolder;
+    
+}
+.user{
+    cursor: pointer;
+    color: teal;
+    margin-top: -20px;
+    margin-right: 40px;
+
+}
+.user a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: bolder;
+
+
+}
+.user i{
+    font-size: 20px;
+    padding: 0px 14px;
+    /* margin-right: 1px; */
+}
+.heropage{
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 100px;
+
+} 
+.inside-heroepage{
+    line-height: 1;
+     
+}
+.inside-heroepage h1{
+    font-size: 50px;
+}
+.inside-heroepage p{
+    font-size: 30px;
+
+}
+span{
+    color:teal;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: aqua;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* position: absolute; */
+
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+3}
+.poster img{
+    height: 370px;
+    float: right;
+    margin-left:570px;
+    margin-top: -420px;
+    border-radius: 10px ;
+    
+}
+.btn1{
+    margin-top: 30px;
+
+}
+.btn1 i{
+    text-decoration: none;
+    color:white;
+    padding: 10px 25px;
+    background: teal;
+    border-radius: 20px;
+
+
+}
+.btn1 i:hover{
+    background: black;
+    color: teal;
+}
